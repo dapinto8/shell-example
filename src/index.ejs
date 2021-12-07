@@ -48,7 +48,8 @@
     {
       "imports": {
         "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-        "@metises/root-config": "//localhost:9000/metises-root-config.js"
+        "@metises/root-config": "//localhost:9000/metises-root-config.js",
+        "@metises/style-components": "//localhost:9001/metises-style-components.js"
       }
     }
   </script>
@@ -76,6 +77,7 @@
   </noscript>
   <script>
     System.import('@metises/root-config');
+    System.import('@metises/style-components');
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
